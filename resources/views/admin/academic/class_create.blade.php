@@ -10,7 +10,6 @@
           <div class="col-sm-6">
           <ol class="breadcrumb pl-0">
               <li class="breadcrumb-item"><a href="{{ route('index') }}"><i class="fas fa-home"></i> Home</a></li>
-              <li class="breadcrumb-item active">Academic</li>
               <li class="breadcrumb-item active"><a href="{{ route('class') }}">Class</a></li>
               <li class="breadcrumb-item active">Create Class</li>
             </ol>

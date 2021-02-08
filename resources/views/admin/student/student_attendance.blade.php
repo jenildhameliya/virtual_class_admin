@@ -34,10 +34,38 @@
       </div>
       <!-- student show table start -->
       <div class="row">
-          <div class="col-12">
-              <!-- /.card-header -->
-              Attendance  
-              <!-- /.card-body -->
+          <!-- <div class="col-12"> -->
+          <div class="col-md-6">
+              <!-- form start -->
+              
+              <form id="adminForm" method="post">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label>Select Class <span style="color: red">*</span></label>
+                    <select name="class" id="class" class="form-control">
+                      <option value="0">Select Class</option>
+                    </select>
+                    <!-- <input type="text" name="admissionno" class="form-control" placeholder="Enter Admission No."> -->
+                  </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                  <div class="form-group">
+                    <label>Date <span style="color: red">*</span></label>
+                    <!-- <select name="cid" id="cid" class="form-control">
+                      <option value="0">Select Class Id</option>
+                    </select> -->
+                    <input type="date" name="date" class="form-control" placeholder="Select Date">
+                  </div>
+                </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+              </form>
+            </div>
             </div>
             <!-- /.card -->
           </div>

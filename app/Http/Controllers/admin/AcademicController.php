@@ -27,6 +27,11 @@ class AcademicController extends Controller
         return view('admin.academic.subject');
     }
 
+    public function subject_create()
+    {
+        return view('admin.academic.subject_create');
+    }
+
     public function class()
     {
         return view('admin.academic.class');

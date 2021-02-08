@@ -36,9 +36,66 @@
               <form id="adminForm" method="post">
                 <div class="card-body">
                   <div class="form-group">
-                    <label>Admission No. <span style="color: red">*</span></label>
-                    <input type="text" name="admissionno" class="form-control" placeholder="Enter Admission No.">
+                    <label>Select Role <span style="color: red">*</span></label>
+                    <select name="role" id="role" class="form-control">
+                      <option value="0">Select Role</option>
+                    </select>
+                    <!-- <input type="text" name="admissionno" class="form-control" placeholder="Enter Admission No."> -->
                   </div> 
+
+                  <div class="form-group">
+                    <label>Middle Name <span style="color: red">*</span></label>
+                    <input type="text" name="mname" class="form-control" placeholder="Enter Middle Name">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Gender <span style="color: red">*</span></label>
+                    <select name="gender" id="gender" class="form-control">
+                      <option value="0">Select Gender</option>
+                    </select>
+                    <!-- <input type="text" name="gender" class="form-control" placeholder="Select Gender"> -->
+                  </div>
+
+                  <div class="form-group">
+                    <label>Address <span style="color: red">*</span></label>
+                    <input type="text" name="address" class="form-control" placeholder="Enter Address">
+                  </div>
+
+                  <div class="form-group">
+                    <label>State <span style="color: red">*</span></label>
+                    <select name="state" id="state" class="form-control">
+                      <option value="0">Select State</option>
+                    </select>
+                    <!-- <input type="text" name="state" class="form-control" placeholder="Select State"> -->
+                  </div>
+
+                  <div class="form-group">
+                    <label>Email <span style="color: red">*</span></label>
+                    <input type="text" name="email" class="form-control" placeholder="Enter Email">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Confirm Password <span style="color: red">*</span></label>
+                    <input type="password" name="cpassword" class="form-control" placeholder="Enter Confirm Password">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Date Of Joining <span style="color: red">*</span></label>
+                    <input type="date" name="doj" class="form-control" placeholder="Select Date Of Joining">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Photo <span style="color: red">*</span></label>
+                    <input type="file" name="t_photo" class="form-control" placeholder="Select Photo">
+                  </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                  <div class="form-group">
+                    <label>First Name <span style="color: red">*</span></label>
+                    <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
+                  </div>
 
                   <div class="form-group">
                     <label>Last Name <span style="color: red">*</span></label>
@@ -48,11 +105,6 @@
                   <div class="form-group">
                     <label>Date Of Birth <span style="color: red">*</span></label>
                     <input type="date" name="dob" class="form-control" placeholder="Select Date Of Birth">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Caste <span style="color: red">*</span></label>
-                    <input type="text" name="caste" class="form-control" placeholder="Enter Caste">
                   </div>
 
                   <div class="form-group">
@@ -72,102 +124,25 @@
                   </div>
 
                   <div class="form-group">
-                    <label>Mobile No. <span style="color: red">*</span></label>
-                    <input type="text" name="mnumber" class="form-control" placeholder="Enter Mobile No">
+                    <label>Password <span style="color: red">*</span></label>
+                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
                   </div>
 
                   <div class="form-group">
-                    <label>Admission Date <span style="color: red">*</span></label>
-                    <input type="date" name="adtae" class="form-control" placeholder="Select Admission Date">
+                    <label>Qualification <span style="color: red">*</span></label>
+                    <input type="text" name="qualification" class="form-control" placeholder="Enter Qualification">
                   </div>
 
                   <div class="form-group">
-                    <label>Father Name <span style="color: red">*</span></label>
-                    <input type="text" name="fathername" class="form-control" placeholder="Enter Father Name">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Father Mobile No. <span style="color: red">*</span></label>
-                    <input type="text" name="fathermnumber" class="form-control" placeholder="Enter Father Mobile No.">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Mother Occupation <span style="color: red">*</span></label>
-                    <input type="text" name="motheroccupation" class="form-control" placeholder="Enter Mother Occupation">
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-body">
-                  <div class="form-group">
-                    <label>First Name <span style="color: red">*</span></label>
-                    <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Gender <span style="color: red">*</span></label>
-                    <select name="gender" id="gender" class="form-control">
-                      <option value="0">Select Gender</option>
-                    </select>
-                    <!-- <input type="text" name="gender" class="form-control" placeholder="Select Gender"> -->
-                  </div>
-
-                  <div class="form-group">
-                    <label>Category <span style="color: red">*</span></label>
-                    <select name="category" id="category" class="form-control">
-                      <option value="0">Select Category</option>
-                    </select>
-                    <!-- <input type="text" name="category" class="form-control" placeholder="Select Category"> -->
-                  </div>
-
-                  <div class="form-group">
-                    <label>Address <span style="color: red">*</span></label>
-                    <input type="text" name="address" class="form-control" placeholder="Enter Address">
-                  </div>
-
-                  <div class="form-group">
-                    <label>State <span style="color: red">*</span></label>
-                    <select name="state" id="state" class="form-control">
-                      <option value="0">Select State</option>
-                    </select>
-                    <!-- <input type="text" name="state" class="form-control" placeholder="Select State"> -->
-                  </div>
-
-                  <div class="form-group">
-                    <label>Religion <span style="color: red">*</span></label>
-                    <input type="text" name="religion" class="form-control" placeholder="Enter Religion">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Email Id <span style="color: red">*</span></label>
-                    <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Student Photo <span style="color: red">*</span></label>
-                    <input type="file" name="sphoto" class="form-control" placeholder="Select Student Photo">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Father Occupation <span style="color: red">*</span></label>
-                    <input type="text" name="fatheroccupation" class="form-control" placeholder="Enter Father Occupation">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Mother Name <span style="color: red">*</span></label>
-                    <input type="text" name="mothername" class="form-control" placeholder="Enter Mother Name">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Mother Mobile No. <span style="color: red">*</span></label>
-                    <input type="text" name="mothermnumber" class="form-control" placeholder="Enter Mother Mobile No.">
+                    <label>Experience <span style="color: red">*</span></label>
+                    <input type="number" name="experience" class="form-control" placeholder="Enter Experience">
                   </div>
                 </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
-                  <a href="{{ route('studentdetail') }}" class="btn btn-danger">Cancel</a>
+                  <a href="{{ route('staff_details') }}" class="btn btn-danger">Cancel</a>
                 </div>
               </form>
             </div>

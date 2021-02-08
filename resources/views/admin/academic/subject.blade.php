@@ -25,7 +25,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
             <ol class="breadcrumb float-sm-right">
-            <a href="#" class="btn btn-info"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Subject</a>
+            <a href="{{ route('subject_create') }}" class="btn btn-info"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Subject</a>
             </ol>
             </ol>
           </div><!-- /.col -->

@@ -107,14 +107,12 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Human Resource
-                <i class="fas fa-angle-left right"></i>
-              </p>
+            <a href="{{ route('staff_details') }}" class="nav-link">
+            <i class="fa fa-user nav-icon" aria-hidden="true"></i>
+              <p>Staff Detail</p>
             </a>
-            <ul class="nav nav-treeview">
+          </li>
+            <!-- <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="{{ route('staff_details') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -127,7 +125,7 @@
                   <p>Staff Attendence</p>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </li>
 
           <li class="nav-item">

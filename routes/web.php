@@ -36,6 +36,7 @@ Route::group(['prefix' => 'admin'], function () {
 		Route::get('/teacher_timetable', 'AcademicController@teacher_tt')->name('teacher_timetable');
 		Route::get('/assign_teacher', 'AcademicController@assign_teacher')->name('assign_teacher');
 		Route::get('/subject', 'AcademicController@subject')->name('subject');
+		Route::get('/subject_create', 'AcademicController@subject_create')->name('subject_create');
 		Route::get('/class', 'AcademicController@class')->name('class');
 		Route::get('/class_create', 'AcademicController@class_create')->name('class_create');
 		Route::get('/subject_group', 'AcademicController@subject_group')->name('subject_group');

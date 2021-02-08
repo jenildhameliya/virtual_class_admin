@@ -82,6 +82,11 @@
                   </div>
 
                   <div class="form-group">
+                    <label>Password <span style="color: red">*</span></label>
+                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
+                  </div>
+
+                  <div class="form-group">
                     <label>Admission Date <span style="color: red">*</span></label>
                     <input type="date" name="adtae" class="form-control" placeholder="Select Admission Date">
                   </div>
@@ -155,6 +160,11 @@
                   <div class="form-group">
                     <label>Email Id <span style="color: red">*</span></label>
                     <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Confirm Password <span style="color: red">*</span></label>
+                    <input type="password" name="cpassword" class="form-control" placeholder="Enter Confirm Password">
                   </div>
 
                   <div class="form-group">

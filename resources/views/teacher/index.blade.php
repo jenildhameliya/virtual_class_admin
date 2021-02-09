@@ -69,21 +69,6 @@
             </div>
           </div>
           <!-- ./col -->
-          
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <a href="#" class="small-box">
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>0</h3>
-                <p>Subject</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-book"></i>
-              </div></a>
-            </div>
-          </div>
-          <!-- ./col -->
         </div>
         <!-- /.row -->
         <!-- Main row -->

@@ -27,6 +27,11 @@ class AcademicController extends Controller
         return view('admin.academic.subject');
     }
 
+    public function subject_edit()
+    {
+        return view('admin.academic.subject_edit');
+    }
+
     public function subject_create()
     {
         return view('admin.academic.subject_create');
@@ -42,8 +47,8 @@ class AcademicController extends Controller
         return view('admin.academic.class_create');
     }
 
-    public function subject_group()
+    public function class_edit()
     {
-        return view('admin.academic.subject_group');
+        return view('admin.academic.class_edit');
     }
 }

@@ -12,11 +12,6 @@ class StudentController extends Controller
         return view('teacher.student.student_detail');
     }
 
-    public function create()
-    {
-        return view('teacher.student.student_create');
-    }
-
     public function attendance()
     {
         return view('teacher.student.student_attendance');

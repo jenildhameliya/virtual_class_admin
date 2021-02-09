@@ -31,7 +31,7 @@
       <div class="container-fluid">
         <div class="row">
           <!-- left column -->
-          <div class="col">
+          <div class="col-md-6">
               <!-- form start -->
               <form id="adminForm" method="post">
                 <div class="card-body">

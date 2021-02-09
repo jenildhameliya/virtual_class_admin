@@ -11,6 +11,76 @@
 </div>
 <!-- ./wrapper -->
 
+<!-- Image -->
+<script>
+  $(document).on("click", ".browse", function() {
+  var file = $(this).parents().find(".file");
+  file.trigger("click");
+});
+$('input[type="file"]').change(function(e) {
+  var fileName = e.target.files[0].name;
+  $("#file").val(fileName);
+
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    // get loaded data and render thumbnail.
+    document.getElementById("preview").src = e.target.result;
+  };
+  // read the image file as a data URL.
+  reader.readAsDataURL(this.files[0]);
+});
+</script>
+
+<!-- DatePicker -->
+<script>
+  $( function() {
+    $( "#datepicker1" ).datepicker();
+    $( "#datepicker1" ).datepicker("option", "dateFormat", "dd/mm/yy");
+    
+  } );
+
+  $( function() {
+    $( "#datepicker2" ).datepicker({ minDate: 0 });
+    $( "#datepicker2" ).datepicker("option", "dateFormat", "dd/mm/yy");
+    
+  } );
+  </script>
+
+  <!-- Slidebar -->
+  <script>
+    $(function(){
+      /* add active class and stay opened when selected */
+      var url = window.location;
+
+      // for sidebar menu entirely but not cover treeview
+      $('ul.nav-sidebar a').filter(function() {
+          return this.href == url;
+      }).addClass('active');
+
+      // for treeview
+      $('ul.nav-treeview a').filter(function() {
+          return this.href == url;
+      }).parentsUntil(".nav-sidebar > .nav-treeview").addClass('menu-open').prev('a').addClass('active');
+      
+    });
+  </script>
+
+  <!-- Mobile Number -->
+  <script>
+    function onlyNumberKey(evt) { 
+          
+        // Only ASCII charactar in that range allowed 
+
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+        {
+            return false; 
+        
+        }
+        return true; 
+    } 
+</script>
+
 <!-- jQuery -->
 <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
 <!-- jQuery UI 1.11.4 -->

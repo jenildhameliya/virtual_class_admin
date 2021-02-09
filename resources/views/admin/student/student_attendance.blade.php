@@ -51,12 +51,14 @@
             </div>
 
             <div class="card-body">
-                  <div class="form-group">
+            <div class="form-group">
                     <label>Date <span style="color: red">*</span></label>
-                    <!-- <select name="cid" id="cid" class="form-control">
-                      <option value="0">Select Class Id</option>
-                    </select> -->
-                    <input type="date" name="date" class="form-control" placeholder="Select Date">
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-calendar-o"></i></div>
+                      </div>
+                      <input type="text" id="datepicker1" name="dob" class="form-control" placeholder="Select Date">
+                    </div>
                   </div>
                 </div>
                 </div>

@@ -11,7 +11,7 @@
           <ol class="breadcrumb pl-0">
               <li class="breadcrumb-item"><a href="{{ route('index') }}"><i class="fas fa-home"></i> Home</a></li>
               <li class="breadcrumb-item active"><a href="{{ route('staff_details') }}">Staff Detail</a></li>
-              <li class="breadcrumb-item active">Create Staff</li>
+              <li class="breadcrumb-item active">Edit Staff</li>
             </ol>
           </div><!-- /.col -->
         </div>
@@ -20,7 +20,7 @@
         <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Create Staff</h1>
+            <h1 class="m-0">Edit Staff</h1>
           </div><!-- /.col -->
         </div><!-- /.row -->
         <div><hr style="border-bottom: 3px solid black;"></div>
@@ -60,7 +60,8 @@
 
                   <div class="form-group">
                     <label>Address <span style="color: red">*</span></label>
-                    <input type="text" name="address" class="form-control" placeholder="Enter Address">
+                    <textarea name="address" id="address" cols="30" rows="1" class="form-control" placeholder="Enter Address"></textarea>
+                    <!-- <input type="text" name="address" class="form-control" placeholder="Enter Address"> -->
                   </div>
 
                   <div class="form-group">
@@ -74,11 +75,6 @@
                   <div class="form-group">
                     <label>Email <span style="color: red">*</span></label>
                     <input type="text" name="email" class="form-control" placeholder="Enter Email">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Confirm Password <span style="color: red">*</span></label>
-                    <input type="password" name="cpassword" class="form-control" placeholder="Enter Confirm Password">
                   </div>
 
                   <!-- <div class="form-group">
@@ -154,11 +150,6 @@
                       <option value="0">Select Country</option>
                     </select>
                     <!-- <input type="text" name="country" class="form-control" placeholder="Select Country"> -->
-                  </div>
-
-                  <div class="form-group">
-                    <label>Password <span style="color: red">*</span></label>
-                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
                   </div>
 
                   <div class="form-group">

@@ -21,12 +21,6 @@
           <div class="col-sm-6">
             <h1 class="m-0">Student Detail</h1>
           </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-            <ol class="breadcrumb float-sm-right">
-            <a href="{{ route('stu_create') }}" class="btn btn-info"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Student</a>
-            </ol>
-            </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
         <div><hr style="border-bottom: 3px solid black;"></div>
@@ -42,24 +36,27 @@
                   <thead>
                     <tr>
                       <th>ID</th>
-                      <th>Name</th>
-                      <th>School Name</th>
-                      <th>Email</th>
                       <th>Image</th>
-                      <th>Action</th>
+                      <th>FName</th>
+                      <th>MName</th>
+                      <th>LName</th>
+                      <th>Gender</th>
+                      <th>Class</th>
+                      <th>City</th>
+                      <th>Email</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Abc</td>
-                      <td>Abc</td>
-                      <td>Abc@gmail.com</td>
-                      <td>Abc.jpg</td>
-                      <td>
-                        <a href="" class="btn btn-success">Edit</a>
-                        <a href="#" class="btn btn-danger">Delete</a>
-                      </td>
+                      <td>Image</td>
+                      <td>FName</td>
+                      <td>MName</td>
+                      <td>LName</td>
+                      <td>Gender</td>
+                      <td>Class</td>
+                      <td>City</td>
+                      <td>Email</td>
                     </tr>
                   </tbody>
                 </table>

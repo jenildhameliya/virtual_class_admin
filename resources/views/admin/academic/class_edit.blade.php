@@ -11,7 +11,7 @@
           <ol class="breadcrumb pl-0">
               <li class="breadcrumb-item"><a href="{{ route('index') }}"><i class="fas fa-home"></i> Home</a></li>
               <li class="breadcrumb-item active"><a href="{{ route('class') }}">Class</a></li>
-              <li class="breadcrumb-item active">Create Class</li>
+              <li class="breadcrumb-item active">Edit Class</li>
             </ol>
           </div><!-- /.col -->
         </div>
@@ -20,7 +20,7 @@
         <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Create Class</h1>
+            <h1 class="m-0">Edit Class</h1>
           </div><!-- /.col -->
         </div><!-- /.row -->
         <div><hr style="border-bottom: 3px solid black;"></div>

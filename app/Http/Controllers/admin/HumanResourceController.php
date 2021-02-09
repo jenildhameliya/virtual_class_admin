@@ -17,8 +17,8 @@ class HumanResourceController extends Controller
         return view('admin.human_resource.staff_create');
     }
 
-    public function attendance()
+    public function staff_edit()
     {
-        return view('admin.human_resource.staff_attendance');
+        return view('admin.human_resource.staff_edit');
     }
 }

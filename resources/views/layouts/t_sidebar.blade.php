@@ -53,54 +53,6 @@
           </li>
 
           <li class="nav-item">
-            <a href="" class="nav-link">
-            <i class="fa fa-graduation-cap nav-icon"></i>
-              <p>
-                Academic
-                <!-- <i class="fas fa-angle-left right"></i> -->
-              </p>
-            </a>
-            <!-- <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ route('class_timetable') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Class Time Table</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('teacher_timetable') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Teacher Time Table</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('assign_teacher') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Assign Class Teacher</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('subject') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Subject</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('class') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Class</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('subject_group') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Subject Group</p>
-                </a>
-              </li>
-            </ul> -->
-          </li>
-
-          <li class="nav-item">
             <a href="{{ route('stu_meeting') }}" class="nav-link">
             <i class="fa fa-tv nav-icon"></i>
               <p>

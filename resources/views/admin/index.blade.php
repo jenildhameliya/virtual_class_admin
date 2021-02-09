@@ -27,7 +27,7 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <a href="#" class="small-box">
+            <a href="{{ route('staff_details') }}" class="small-box">
             <div class="small-box bg-info">
               <div class="inner">
                 <h3>0</h3>
@@ -42,7 +42,7 @@
           
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <a href="#" class="small-box">
+            <a href="{{ route('studentdetail') }}" class="small-box">
             <div class="small-box bg-success">
               <div class="inner">
                 <h3>0</h3>
@@ -57,7 +57,7 @@
           
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <a href="#" class="small-box">
+            <a href="{{ route('class') }}" class="small-box">
             <div class="small-box bg-warning">
               <div class="inner">
                 <h3>0</h3>
@@ -72,7 +72,7 @@
           
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <a href="#" class="small-box">
+            <a href="{{ route('subject') }}" class="small-box">
             <div class="small-box bg-danger">
               <div class="inner">
                 <h3>0</h3>

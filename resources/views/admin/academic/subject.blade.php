@@ -52,7 +52,7 @@
                       <td>1</td>
                       <td>Subject Name</td>  
                       <td>
-                        <a href="{{ route('subject_edit') }}" class="btn btn-success">Edit</a>
+                        <a href="{{ route('studentedit') }}" class="btn btn-success">Edit</a>
                         <a href="#" class="btn btn-danger">Delete</a>
                       </td>
                     </tr>
